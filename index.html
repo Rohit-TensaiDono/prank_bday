@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bday_prank </title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="leaflet/leaflet.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>🎉 Happy Birthday Viroo :) !! 🎉</h1>
+        <p>Welcome to your special surprise website!</p>
+    </header>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <h2>Your Special Video</h2>
+        <video id="birthday-video" autoplay muted loop>
+            <source src="birthday-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Click the button below to unmute the video.</p>
+        <button id="mute-toggle" class="mute-button">Unmute</button>
+    </section>
+
+    <!-- IP Address and Map Section -->
+    <section class="prank-section">
+        <h2>We Know Where You Are... 👀</h2>
+        <p>Your IP Address is: <span id="ip-address">Loading...</span></p>
+        <p>Your Location is: <span id="location">Loading...</span></p>
+        <div id="map" style="height: 300px; margin: 20px 0; border-radius: 10px;"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with ❤️ for your birthday!</p>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="leaflet/leaflet.js"></script>
+</body>
+</html>

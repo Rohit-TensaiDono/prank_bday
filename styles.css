@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(120deg, #1e1e2f, #111122);
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #f4a261;
+}
+
+header {
+    background: linear-gradient(45deg, #f4a261, #e76f51);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Video Section */
+.video-section {
+    padding: 20px;
+    background-color: #22223b;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 0 15px 5px #f4a261;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-section p {
+    margin-top: 10px;
+    font-style: italic;
+    color: #f4a261;
+}
+
+/* Mute/Unmute Button */
+.mute-button {
+    background: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.mute-button:hover {
+    background: #21867a;
+}
+
+/* IP Prank Section */
+.prank-section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background: linear-gradient(135deg, #2a2a40, #1e1e2f);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px #ee6c4d;
+    color: #f4a261;
+}
+
+#ip-address, #location {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Map Styles */
+#map {
+    height: 300px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px #2a9d8f;
+}
+
+/* Footer */
+.footer {
+    background-color: #264653;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .video-section, .prank-section {
+        width: 95%;
+    }
+
+    video {
+        width: 100%;
+    }
+}
